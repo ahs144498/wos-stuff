@@ -292,7 +292,7 @@ function pointAABBcoll(point, rectangle)
 end
 
 
-while true do
+while wait() do
 	if game then
 		
 		if puckP.xv > 0 then puckP.xv = puckP.xv - 0.5 end
